@@ -40,12 +40,10 @@ let comments = [
 ];
 
 app.post('/api/comments/:year', (req, res) => {
-  console.log(req.params.year);
   let index = comments.map(comment => {
       return comment.year;
     })
     .indexOf(req.params.year);
-    console.log(index);
   comments[index].id = comments[index].id + 1;
   let comment = {
     id: comments[index].id,
@@ -58,7 +56,6 @@ app.post('/api/comments/:year', (req, res) => {
 });
 
 app.get('/api/comments/:year', (req, res) => {
-  console.log(req.params.year);
   let index = comments.map(comment => {
       return comment.year;
     })
@@ -67,8 +64,6 @@ app.get('/api/comments/:year', (req, res) => {
 });
 
 app.put('/api/comments/:year/:id', (req, res) => {
-  console.log(req.params.year);
-  console.log(req.params.id);
   let index = comments.map(comment => {
       return comment.year;
     })
@@ -91,8 +86,6 @@ app.put('/api/comments/:year/:id', (req, res) => {
 });
 
 app.delete('/api/comments/:year/:id', (req, res) => {
-  console.log(req.params.year);
-  console.log(req.params.id);
   let index = comments.map(comment => {
       return comment.year;
     })

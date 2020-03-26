@@ -41,4 +41,15 @@ export default {
   margin-right: 10%;
   background-color: #fff5f5;
 }
+
+.historical p {
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: #fff5f5;
+}
+.commentary p {
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: #fff5f5;
+}
 </style>

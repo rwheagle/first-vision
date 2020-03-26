@@ -1,35 +1,54 @@
-let otherAccounts = [
-{
-  name:"first",
-  year:"1",
-  text:"A long, long time ago in a galaxy far, far away.",
-  context:"THis was written by me",
-  commentary:[
-    {
+let otherAccounts = [{
+    name: "Orson Pratt",
+    year: "1840",
+    text: "When somewhere about fourteen or fifteen years old, he began seriously to reflect upon the necessity of being prepared for a future state of existence: but how, or in what way, to prepare himself, was a question, as yet, undetermined in his own mind: he perceived that it was a question of infinite importance, and that the salvation of his soul depended upon a correct understanding of the same. He saw, that if he understood not the way, it would be impossible to walk in it, except by chance; and the thought of resting his hopes of eternal life upon chance, or uncertainties, was more than he could endure. If he went to the religious denominations to seek information, each one pointed to its particular tenets, saying—“This is the way, walk ye in it;” while, at the same time, the doctrines of each were, in many respects, in direct opposition to one another. It, also, occurred to his mind, that God was not the author of but one doctrine, and therefore could not acknowledge but one denomination as his church; and that such denomination must be a people, who believe, and teach, that one doctrine, (whatever it may be,) and build upon the same. He then reflected upon the immense number of doctrines, now, in the world, which had given rise to many hundreds of different denominations. The great question to be decided in his mind, was—if any one of these denominations be the Church of Christ, which one is it? Until he could become satisfied, in relation to this question, he could not rest contented. To trust to the decisions of fallible man, and build his hopes upon the same, without any certainty, and knowledge, of his own, would not satisfy the anxious desires that pervaded his breast. To decide, without any positive and definite evidence, on which he could rely, upon a subject involving the future welfare of his soul, was revolting to his feelings. The only alternative, that seemed to be left him, was to read the Scriptures, and endeavour to follow their directions. He, accordingly, commenced perusing the sacred pages of the Bible, with sincerity, believing the things that he read. His mind soon caught hold of the following passage:—“If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him.”—James i. 5. From this promise he learned, that it was the privilege of all men to ask God for wisdom, with the sure and certain expectation of receiving, liberally; without being upbraided for so doing. This was cheering information to him: tidings that gave him great joy. It was like a light shining forth in a dark place, to guide him to the path in which he should walk. He, now, saw that if he inquired of God, there was, not only, a possibility, but a probability; yea, more, a certainty, that he should obtain a knowledge, which, of all the doctrines, was the doctrine of Christ; and, which, of all the churches, was the church of Christ. He, therefore, retired to a secret place, in a grove, but a short distance from his father’s house, and knelt down, and began to call upon the Lord. At first, he was severely tempted by the powers of darkness, which endeavoured to overcome him; but he continued to seek for deliverance, until darkness gave way from his mind; and he was enabled to pray, in fervency of the spirit, and in faith. And, while thus pouring out his soul, anxiously desiring an answer from God, he, at length, saw a very bright and glorious light in the heavens above; which, at first, seemed to be at a considerable distance. He continued praying, while the light appeared to be gradually descending towards him; and, as it drew nearer, it increased in brightness, and magnitude, so that, by the time that it reached the tops of the trees, the whole wilderness, for some distance around, was illuminated in a most glorious and brilliant manner. He expected to have seen the leaves and boughs of the trees consumed, as soon as the light came in contact with them; but, perceiving that it did not produce that effect, he was encouraged with the hopes of being able to endure its presence. It continued descending, slowly, until it rested upon the earth, and he was enveloped in the midst of it. When it first came upon him, it produced a peculiar sensation throughout his whole system; and, immediately, his mind was caught away, from the natural objects with which he was surrounded; and he was enwrapped in a heavenly vision, and saw two glorious personages, who exactly resembled each other in their features or likeness. He was informed, that his sins were forgiven. He was also informed upon the subjects, which had for some time previously agitated his mind, viz.—that all the religious denominations were believing in incorrect doctrines; and, consequently, that none of them was acknowledged of God, as his church and kingdom. And he was expressly commanded, to go not after them; and he received a promise that the true doctrine—the fulness of the gospel, should, at some future time, be made known to him; after which, the vision withdrew, leaving his mind in a state of calmness and peace, indescribable. Some time after having received this glorious manifestation, being young, he was again entangled in the vanities of the world, of which he afterwards sincerely and truly repented.",
+    context: "Orson Pratt wrote a pamphlet to help people to understand about the Prophet Joseph Smith, this was part of the pamphlet called \"A[n] Interesting Account of Several Remarkable Visions\"",
+    commentary: [{
       id: 1,
-      comment: "I think that this might work"
-    },
-    {
-      id: 2,
-      comment: "Testing comments"
-    },
-  ]
-},
-{
-  name:"second",
-  year:"1900",
-  text:"These are the voyages of the starship Enterprise",
-  context:"Star Trek",
-  commentary:[
-    {
+      comment: "This is one of the longer and more detailed accounts. I feel like he may have embellished the account to make it more enjoyable to read because it is. This is a fantastic story of a boy who saw God."
+    }]
+  },
+  {
+    name: "Orson Hyde",
+    year: "1842",
+    text: "When he had reached his fifteenth year, he began to think seriously about the importance of preparing for a future [existence]; but it was very difficult for him to decide how he should go about such an important undertaking. He recognized clearly that it would be impossible for him to walk the proper path without being acquainted with it beforehand; and to base his hopes for eternal life on chance or blind uncertainty would have been more than he had ever been inclined to do.He discovered the world of religion working under a flood of errors which by virtue of their contradictory opinions and principles laid the foundation for the rise of such different sects and denominations whose feelings toward each other all too often were poisoned by hate, contention, resentment and anger. He felt that there was only one truth and that those who understood it correctly, all understood it in the same way. Nature had endowed him with a keen critical intellect and so he looked through the lens of reason and common sense and with pity and contempt upon those systems of religion, which were so opposed to each other and yet were all obviously based on the scriptures. After he had sufficiently convinced himself to his own satisfaction that darkness covered the earth and gross darkness [covered] the nations, the hope of ever finding a sect or denomination that was in possession of unadulterated truth left him. Consequently he began in an attitude of faith his own investigation of the word of God [feeling that it was] the best way to arrive at a knowledge of the truth. He had not proceeded very far in this laudable endeavor when his eyes fell upon the following verse of St. James [1:5]: “If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him.” He considered this scripture an authorization for him to solemnly call upon his creator to present his needs before him with the certain expectation of some success. And so he began to pour out to the Lord with fervent determination the earnest desires of his soul. On one occasion, he went to a small grove of trees near his father’s home and knelt down before God in solemn prayer. The adversary then made several strenuous efforts to cool his ardent soul. He filled his mind with doubts and brought to mind all manner of inappropriate images to prevent him from obtaining the object of his endeavors; but the overflowing mercy of God came to buoy him up and gave new impetus to his failing strength. However, the dark cloud soon parted and light and peace filled his frightened heart. Once again he called upon the Lord with faith and fervency of spirit. At this sacred moment, the natural world around him was excluded from his view, so that he would be open to the presentation of heavenly and spiritual things. Two glorious heavenly personages stood before him, resembling each other exactly in features and stature. They told him that his prayers had been answered and that the Lord had decided to grant him a special blessing. He was also told that he should not join any of the religious sects or denominations, because all of them erred in doctrine and none was recognized by God as his church and kingdom. He was further commanded, to wait patiently until some future time, when the true doctrine of Christ and the complete truth of the gospel would be revealed to him. The vision closed and peace and calm filled his mind.",
+    context: "Originally in german Orson Hyde wrote this in\"A Cry out of the Wilderness\" for the people there.",
+    commentary: [{
       id: 1,
-      comment: "Trekkies before it was cool"
-    },
-    {
-      id: 2,
-      comment: "Why did i procrastinate?"
-    },
-  ]
-}
+      comment: "Another good account that shows the influence and power that Joseph's testimony had on people."
+    }]
+  },
+  {
+    name: "Levi Richards",
+    year: "1843",
+    text: "Pres. J. Smith bore testimony to the same— saying that when he was a youth he began to think about these things but could not find out which of all the sects were right— he went into the grove & enquired of the Lord which of all the sects were right— re received for answer that none of them were right, that they were all wrong, & that the Everlasting covenant was broken= he said he understoood the fulness of the Gospel from beginning to end— & could Teach it & also the order of the priesthood in all its ramifications= Earth & hell had opposed him & tryed to destroy him— but they had not done it= & they never would",
+    context: "An account written in a journal after a conference.",
+    commentary: [{
+      id: 1,
+      comment: "Short and concise, this explains a bit about the magnitude of Joseph's struggle."
+    }, ]
+  },
+  {
+    name: "David Nye White",
+    year: "1843",
+    text: "The Lord does reveal himself to me. I know it. He revealed himself to me first when I was about fourteen years old, a mere boy. I will tell you about it. There was a reformation among the different religious denominations in the neighborhood where I lived, and I became serious, and was desirous to know what Church to join. While thinking of this matter, I opened the Testament promiscuously on these words, in James, ‘Ask of the Lord who giveth to all men liberally and upbraideth not.’ I just determined I’d ask him. I immediately went out into the woods where my father had a clearing, and went to the stump where I had stuck my axe when I had quit work, and I kneeled down, and prayed, saying, ‘O Lord, what Church shall I join.’ Directly I saw a light, and then a glorious personage in the light, and then another personage, and the first personage said to the second, “Behold my beloved Son, hear him.” I then, addressed this second person, saying, “O Lord, what Church shall I join.” He replied, “don’t join any of them, they are all corrupt.” The vision then vanished, and when I come to myself, I was sprawling on my back; and it was sometime before my strength returned. When I went home and told the people that I had a revelation, and that all the churches were corrupt, they persecuted me, and they have persecuted me ever since. They thought to put me down, but they hav’nt succeeded, and they can’t do it. When I have proved that I am right, and get all the world subdued under me, I think I shall deserve something",
+    context: "An interview with Joseph Smith",
+    commentary: [{
+        id: 1,
+        comment: "Again a much shorted interpretation that summarized the vision"
+      }
+    ]
+  },
+  {
+    name: "Alexander Neibaur",
+    year: "1844",
+    text: " Joseph tolt us the first call he had a Revival Meeting his Mother & Br & Sister got Religion, he wanted to get Religion too wanted to feel & shout like the Rest but could feel nothing, opened his Bible the first Passage that struck him was if any man lack Wisdom let him ask of God who giveth to all Men liberallity & upbraidet not went into the Wood to pray kneelt himself down his tongue was closet cleavet to his roof— could utter not a word, felt easier after a while= saw a fire towards heaven came near & nearer saw a personage in the fire light complexion blue eyes a piece of white cloth drawn over his shoulders his right arm bear after a w[h]ile a other person came to the side of the first Mr Smith then asked must I join the Methodist Church= No= they are not my People, th all have gone astray there is none that doeth good no not one, but this is my Beloved son harken ye him, the fire drew nigher Rested upon the tree enveloped him comforted Indeavoured to arise but felt uncomen feeble= got into the house told the Methodist priest, said this was not a age for God to Reveal himself in Vision Revelation has ◊ ceased with the New Testament",
+    context: "A journal entry",
+    commentary: [{
+        id: 1,
+        comment: "This is a journal enty of a man who heard Joseph speak, I feel like it is not very reliable but does confirm details of the vision"
+      }
+    ]
+  }
 ];
 export default otherAccounts;
