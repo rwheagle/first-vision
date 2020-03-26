@@ -59,7 +59,7 @@ export default {
         this.text = "";
         this.getComments();
       } catch (error) {
-        console.log(error);
+          
       }
     },
     async deleteComment(comment) {
@@ -67,7 +67,7 @@ export default {
         await axios.delete("/api/comments/" + this.year + "/" + comment.id);
         this.getComments();
       } catch (error) {
-        console.log(error);
+        
       }
     },
     async getComments() {
@@ -75,7 +75,7 @@ export default {
         const response = await axios.get("/api/comments/" + this.year);
         this.comments = response.data
       } catch (error) {
-        console.log(error);
+        
       }
     },
   }
