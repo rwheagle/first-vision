@@ -1,5 +1,17 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>About</h1>
+    <img src="/public/images/me.jpg"/>
+    <p>I did this project for my religion class<br> This was a very fun project and I really enjoyed learning about the first vision</p>
   </div>
 </template>
+<style scoped>
+.about {
+  margin: 5%;
+}
+img{
+  width: 200px;
+  height: 300px;
+}
+
+</style>

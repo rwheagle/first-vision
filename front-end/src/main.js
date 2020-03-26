@@ -1,15 +1,15 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import OtherAccounts from './otherAccounts.js'
-import Accounts from './accounts.js'
+import otherAccounts from './otherAccounts.js'
+import accounts from './accounts.js'
 
 Vue.config.productionTip = false
 
-let data = [
-  accounts = Accounts,
-  other = OtherAccounts
-];
+let data = {
+  account:accounts,
+  other:otherAccounts
+};
 
 new Vue({
   router,

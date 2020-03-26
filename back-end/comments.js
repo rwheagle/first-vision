@@ -11,46 +11,94 @@ app.use(bodyParser.urlencoded({
 // parse application/json
 app.use(bodyParser.json());
 
-let comments = [];
-let id = 0;
+let comments = [
+  {
+    id: 0,
+    year:"1832",
+    comments: []
+  },
+  {
+    id: 0,
+    year:"1835",
+    comments: []
+  },
+  {
+    id: 0,
+    year:"1838",
+    comments: []
+  },
+  {
+    id: 0,
+    year:"1842",
+    comments: []
+  },
+  {
+    id: 0,
+    year:"other",
+    comments: []
+  }
+];
 
-app.post('/api/comments', (req, res) => {
-  id = id + 1;
+app.post('/api/comments/:year', (req, res) => {
+  console.log(req.params.year);
+  let index = comments.map(comment => {
+      return comment.year;
+    })
+    .indexOf(req.params.year);
+    console.log(index);
+  comments[index].id = comments[index].id + 1;
   let comment = {
-    id: id,
+    id: comments[index].id,
     text: req.body.text,
     name: req.body.name,
-    time: req.body.time
+    date: req.body.date
   };
-  comments.push(comment);
+  comments[index].comments.push(comment);
   res.send(comment);
 });
 
-app.get('/api/comments', (req, res) => {
-  res.send(comments);
+app.get('/api/comments/:year', (req, res) => {
+  console.log(req.params.year);
+  let index = comments.map(comment => {
+      return comment.year;
+    })
+    .indexOf(req.params.year);
+  res.send(comments[index].comments);
 });
 
-app.put('/api/comments/:id', (req, res) => {
+app.put('/api/comments/:year/:id', (req, res) => {
+  console.log(req.params.year);
+  console.log(req.params.id);
+  let index = comments.map(comment => {
+      return comment.year;
+    })
+    .indexOf(req.params.year);
   let id = parseInt(req.params.id);
-  let commentsMap = comments.map(comment => {
+  let commentsMap = comments[index].comments.map(comment => {
     return comment.id;
   });
-  let index = commentsMap.indexOf(id);
-  if (index === -1) {
+  let ind = commentsMap.indexOf(id);
+  if (ind === -1) {
     res.status(404)
       .send("Sorry, that comment doesn't exist");
     return;
   }
-  let comment = comments[index];
+  let comment = comments[index].comments[ind];
   comment.text = req.body.text;
   comment.name = req.body.name;
-  comment.time = req.body.time;
+  comment.date = req.body.date;
   res.send(comment);
 });
 
-app.delete('/api/comments/:id', (req, res) => {
+app.delete('/api/comments/:year/:id', (req, res) => {
+  console.log(req.params.year);
+  console.log(req.params.id);
+  let index = comments.map(comment => {
+      return comment.year;
+    })
+    .indexOf(req.params.year);
   let id = parseInt(req.params.id);
-  let removeIndex = comments.map(comment => {
+  let removeIndex = comments[index].comments.map(comment => {
       return comment.id;
     })
     .indexOf(id);
@@ -59,7 +107,7 @@ app.delete('/api/comments/:id', (req, res) => {
       .send("Sorry, that comment doesn't exist");
     return;
   }
-  comment.splice(removeIndex, 1);
+  comments[index].comments.splice(removeIndex, 1);
   res.sendStatus(200);
 });
 
